@@ -1,4 +1,4 @@
-# kubernetes_topsis_uw-capstone
+# GreenCube
 # TOPSIS Scheduler for Kubernetes
 
 ## Overview
