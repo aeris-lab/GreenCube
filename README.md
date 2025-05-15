@@ -2,7 +2,7 @@
 # TOPSIS Scheduler for Kubernetes
 
 ## Overview
-TOPSIS Scheduler is an energy-aware and performance-optimized custom Kubernetes scheduler that implements the TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) multi-criteria decision-making method. This capstone project demonstrates how multi-criteria decision-making can enhance Kubernetes scheduling to optimize for both performance and energy efficiency.
+TOPSIS Scheduler is an energy-aware and performance-optimized custom Kubernetes scheduler that implements the TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) multi-criteria decision-making method. This research project demonstrates how multi-criteria decision-making can enhance Kubernetes scheduling to optimize for both performance and energy efficiency.
 
 The scheduler extends Kubernetes' resource management capabilities by considering multiple criteria when placing pods, including:
 
@@ -14,7 +14,7 @@ The scheduler extends Kubernetes' resource management capabilities by considerin
 
 ### Project Structure
 
-This capstone project consists of three main components:
+This research project consists of three main components:
 
 1. **TOPSIS Scheduler**: A custom Kubernetes scheduler implementing the TOPSIS algorithm (Java)
 2. **Linear Regression Workloads**: Three test applications with varying resource requirements:
@@ -658,13 +658,14 @@ You can use this data to compare:
    - Verify the pod is running with `kubectl get pod metrics-collector`
    - Check logs with `kubectl logs metrics-collector`
 
-## Results and Findings
+## Using GreenPod
 
-The results have been documented and submitted along with all the deliverables.
+Please cite the following publication if you use GreenKube. 
+Preethika Pradeep, Eyhab Al-Masri, "GreenPod: Energy-Optimized Scheduling for AIoT Workloads Using TOPSIS," In 2025 IEEE World AI IoT Congress (AIIoT). IEEE, 2025.
 
 ## Conclusion
 
-This capstone project demonstrates the implementation and evaluation of a multi-criteria decision-making approach to Kubernetes pod scheduling. By leveraging the TOPSIS method, we've created a scheduler that considers multiple factors including energy consumption, which is increasingly important in modern cloud environments.
+This research project demonstrates the implementation and evaluation of a multi-criteria decision-making approach to Kubernetes pod scheduling. By leveraging the TOPSIS method, we've created a scheduler that considers multiple factors including energy consumption, which is increasingly important in modern cloud environments.
 
 The experimental results show that a more sophisticated scheduling approach can provide benefits in resource utilization and energy efficiency compared to the default Kubernetes scheduler, especially in heterogeneous cluster environments with varying workload types.
 
