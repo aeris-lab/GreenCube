@@ -5,7 +5,6 @@
 TOPSIS Scheduler is an energy-aware and performance-optimized custom Kubernetes scheduler that implements the TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) multi-criteria decision-making method. This research project demonstrates how multi-criteria decision-making can enhance Kubernetes scheduling to optimize for both performance and energy efficiency.
 
 The scheduler extends Kubernetes' resource management capabilities by considering multiple criteria when placing pods, including:
-
 - Task execution time
 - Energy consumption
 - Available CPU resources
@@ -663,10 +662,11 @@ You can use this data to compare:
 Please cite the following publication if you use GreenKube. 
 Preethika Pradeep, Eyhab Al-Masri, "GreenPod: Energy-Optimized Scheduling for AIoT Workloads Using TOPSIS," In 2025 IEEE World AI IoT Congress (AIIoT). IEEE, 2025.
 
-## Conclusion
+## AERIS Lab
 
-This research project demonstrates the implementation and evaluation of a multi-criteria decision-making approach to Kubernetes pod scheduling. By leveraging the TOPSIS method, we've created a scheduler that considers multiple factors including energy consumption, which is increasingly important in modern cloud environments.
+<img src="aires-lab.png" alt="AERIS Lab at UW Tacoma" width="160" align="left"/>
 
-The experimental results show that a more sophisticated scheduling approach can provide benefits in resource utilization and energy efficiency compared to the default Kubernetes scheduler, especially in heterogeneous cluster environments with varying workload types.
+<div align="justify">
+This work is conducted and supported by AERIS Lab at the University of Washington Tacoma. At the AERIS Lab (AI & Embedded Research in Intelligent Systems), we advance the frontier of intelligent, secure, and networked technologies for the Internet of Things (IoT), edge computing, and cyber-physical systems. Our mission is to design, develop, and deploy scalable AI-driven architectures that enable real-time decision-making, privacy-preserving analytics, and seamless integration of sensing, computing, and communication. We emphasize responsible AI, sustainability, and societal impact through interdisciplinary research in smart infrastructure, embedded intelligence, and trustworthy computing. For more information, please visit: http://faculty.uw.edu/ealmasri
+</div>
 
-Future work could explore dynamic weight adjustment based on cluster conditions, integration with Kubernetes metrics server for real-time monitoring, and expansion to additional scheduling criteria such as network topology or data locality.
